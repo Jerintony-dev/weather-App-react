@@ -1,0 +1,105 @@
+.card {
+  height: auto;
+  width: 250px;
+  background-color: transparent;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.card:hover{
+    
+    scale: 1.01;
+    transition: ease-in-out 0.5s;
+
+}
+
+.weather {
+  margin-top: 20px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-data {
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 0px 0px 5px rgba(214, 173, 173, 0.516);
+  background-color: rgba(116, 198, 198, 0.496);
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-data > .wind-speed {
+  position: relative;
+  top: 10px;
+  left: 30px;
+  margin: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:5px;
+}
+.wind-speed:hover{
+    scale:1.1;
+    transition: ease-in-out 0.2s;
+}
+
+.weather-data > .Humidity {
+  position: relative;
+  top: 10px;
+  right: 30px;
+  margin: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Humidity:hover{
+    scale:1.1;
+    transition: ease-in-out 0.2s;    
+}
+
+
+h5 {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px rgba(81, 98, 107, 0.263);
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+span {
+  position: relative;
+  font-size: 10px;
+  bottom: 1px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 5px rgba(81, 98, 107, 0.263);
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Inter", sans-serif;
+    font-weight: 100;
+}
+
+.place-temp{
+
+    font-family: "Inter", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    position: relative;
+    bottom:20px;
+}
